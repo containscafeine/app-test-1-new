@@ -23,7 +23,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties("greeting")
 public class GreetingProperties {
 
-    private String message = "Oye Kiaa, %s!";
+    private String message = "Yo bruh, %s!";
 
     public String getMessage() {
         return message;
